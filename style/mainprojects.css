@@ -29,7 +29,6 @@ nav {
     border-style: groove;
     border-radius: 15px;
     text-align: center;
-    margin: 4%;
     padding: 1%;
     padding-left: 6%;
     padding-right: 6%;
@@ -43,7 +42,6 @@ nav {
     padding-left: 6%;
     padding-right: 6%;
     text-align: center;
-    margin: 4%;
 }
 
 .threebox {
@@ -54,7 +52,6 @@ nav {
     padding-left: 6%;
     padding-right: 6%;
     text-align: center;
-    margin: 4%;
 }
 
 nav ul {
