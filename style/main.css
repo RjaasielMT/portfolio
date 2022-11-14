@@ -1,0 +1,273 @@
+body {
+    background-color: rgb(247, 247, 230);
+    font-size: 100%;
+    margin: 7%;
+}    
+
+header {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Horizontal menu */
+
+nav {
+    font-size: 100%;
+}
+
+ .containermenuhorizontal{
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    padding: 0%;
+    flex-wrap: wrap;
+}
+
+.onebox {
+    background-color: rgb(255, 146, 146);
+    border-style: groove;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.twobox {
+    background-color: rgb(255, 146, 146);
+    border-style: groove;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+}
+
+.threebox {
+    background-color: rgb(255, 146, 146);
+    border-style: groove;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+/*Section*/
+#page {
+    display: grid;
+    grid-template-areas:
+      "head head"
+      "main foot";
+    grid-template-rows: 30% 70%; 
+    grid-template-columns: 65% 1fr;
+    background-color: #8ca0ff;
+    border-radius: 3rem;
+    margin-bottom: 2%;
+}
+
+#page > header {
+    grid-area: head;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 1%;
+  }
+
+  h1 {
+    font-size: 260%;
+    margin: 0%;
+    color: white;
+  }
+  h2 {
+    font-size: 100%;
+    margin-top: 0%;
+    color: rgb(221, 221, 221);
+  }
+
+  p {
+    font-size: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #page > main {
+    grid-area: main;
+    padding-left: 15%;
+  }
+
+  #page > footer{
+    grid-area: foot;
+  }
+
+.buttons {
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.gh {
+    background-color: #8cffa0;
+    border-style: groove;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    margin: 10%;
+    margin-top: 0%;
+    font-size: 100%;
+}
+.lk {
+    background-color: #8cffa0;
+    border-style: groove;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    margin: 10%;
+    margin-top: 0%;
+    font-size: 100%;
+}
+
+/*Section Two*/ 
+#sectiontwo {
+    display: grid;
+    grid-template-areas: "one two";
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#sectiontwo > #one {
+    grid-area: one;
+}
+#sectiontwo > #two {
+    grid-area: two;
+}
+
+/*one*/
+#one {
+    display: grid;
+    grid-template-areas: "head main";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr;
+    background-color: #F6FF37;
+    border-radius: 2rem;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#one > header {
+    grid-area: head;
+    text-align: left;
+    font-size: 100%;
+    padding-left: 20%;
+}
+
+#one > main {
+    grid-area: main;
+    text-align: center;
+}
+/*two*/
+#two {
+    display: grid;
+    grid-template-areas: "main head";
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr;
+    background-color: #8cffa0;
+    border-radius: 2rem;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+#two > header {
+    grid-area: head;
+    text-align: right;
+    font-size: 100%;
+    padding-right: 20%;
+}
+
+#two > main {
+    grid-area: main;
+    text-align: center;
+}
+
+/*buttons*/
+.resume {
+    background-color: rgb(255, 146, 146);
+    border-style: groove;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    margin: 0%;
+    margin-top: 0%;
+}
+.projects {
+    background-color: rgb(255, 146, 146);
+    border-style: groove;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    margin: 0%;
+    margin-top: 0%;
+}
+
+/*Footer*/
+code {
+    font-size: 100%;
+    padding-left: 20%;
+}
+
+#footer {
+    display: grid;
+    grid-template-areas: "code img";
+    grid-template-columns: 70%;
+    margin-top: 2%;
+}
+
+#footer > code {
+    grid-area: code;
+    text-align: left;
+}
+#footer > img {
+    grid-area: img;
+    text-align: right;
+}
+
+ul.buttons {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 17%;
+}

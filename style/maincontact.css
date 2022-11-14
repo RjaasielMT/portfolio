@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(247, 247, 230);
+    font-size: 100%;
+    margin: 7%;
+}    
+
+header {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Horizontal menu */
+
+nav {
+    font-size: 100;
+}
+
+ .containermenuhorizontal{
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    padding: 0%;
+    flex-wrap: wrap;
+}
+
+.onebox {
+    background-color: rgb(255, 146, 146);
+    border-style: groove;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.twobox {
+    background-color: rgb(255, 146, 146);
+    border-style: groove;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+}
+
+.threebox {
+    background-color: rgb(255, 146, 146);
+    border-style: groove;
+    border-radius: 15px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+/*Footer*/
+code {
+    font-size: 100%;
+    padding-left: 20%;
+}
+
+#footer {
+    display: grid;
+    grid-template-areas: "code img";
+    grid-template-columns: 70%;
+    margin-top: 2%;
+}
+
+#footer > code {
+    grid-area: code;
+    text-align: left;
+}
+#footer > img {
+    grid-area: img;
+    text-align: right;
+}
+
+/*Section*/
+#contact {
+    display: grid;
+    grid-template-areas: "main nav foot";
+    justify-content: center;
+    grid-template-columns: 33% 33%;
+}
+
+#contact > main{
+    grid-area: main;
+    text-align: center;
+    margin: 5%;
+    border-style: groove;
+    border-radius: 2rem;
+}
+#contact > nav {
+    grid-area: nav;
+    text-align: center;
+    margin: 5%;
+   border-style: groove;
+    border-radius: 2rem;
+}
+#contact > footer {
+    grid-area: foot;
+    text-align: center;
+    margin: 5%;
+    border-style: groove;
+    border-radius: 2rem;
+}
+
+h1{
+    font-size: 100%;
+}
+
+h4 {
+    text-align: right;
+    font-size: 80%;
+}
+
+.hr {
+    border-color: #F6FF37;
+}
